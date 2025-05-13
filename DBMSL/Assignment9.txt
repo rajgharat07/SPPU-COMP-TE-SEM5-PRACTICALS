@@ -3,8 +3,8 @@ student> db.Employee.find().pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 3,
     jobtitle: 'CEO'
   },
@@ -74,8 +74,8 @@ student> db.Employee.find().pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -125,8 +125,8 @@ student> db.Employee.find().pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -180,8 +180,8 @@ student> db.Employee.find().limit(4).pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -211,8 +211,8 @@ student> db.Employee.find().limit(3).pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -252,8 +252,8 @@ student> db.Employee.find().sort({fname:1}).pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -291,8 +291,8 @@ student> db.Employee.find({}).sort({fname:1}).pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -320,8 +320,8 @@ student> db.Employee.find().pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
@@ -353,8 +353,8 @@ student> db.Employee.find().pretty()
   {
     _id: ObjectId("6543d01158b108ab6a6d9740"),
     eid: 1,
-    fname: 'Manav',
-    lname: 'Mehta',
+    fname: 'Raj',
+    lname: 'Gharat',
     officecode: 1,
     jobtitle: 'CEO'
   },
