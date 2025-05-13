@@ -1,5 +1,5 @@
-Name: Manav Mehta
-Roll No.: 31446
+Name: Raj Gharat
+Roll No.: 31124
 Subject: DBMSL
 Assignement No: 7
 **************************** Table Creation **************************************
